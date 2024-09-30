@@ -199,6 +199,10 @@ h6 {
 
 /* Google Translate Widget Styling */
 
+body > .skiptranslate > iframe {
+    display: none !important; /* Hides the iframe which contains the menu */
+}
+
 #google_translate_element .goog-te-gadget-simple {
     background-color: var(--background-color); /* Background to match footer */
     border-radius: 5px;
