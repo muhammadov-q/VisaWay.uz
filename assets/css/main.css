@@ -197,6 +197,42 @@ h6 {
   }
 }
 
+/* Google Translate Widget Styling */
+
+#google_translate_element .goog-te-gadget-simple {
+    background-color: var(--background-color); /* Background to match footer */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Arial', sans-serif;
+    padding: 2px; /* Reduced padding for a smaller height */
+}
+
+#google_translate_element .goog-te-gadget-simple .goog-te-menu-value {
+    color: #555;
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+#google_translate_element .goog-te-gadget-simple .goog-te-menu-value span {
+    font-size: 10px;
+    /* No additional padding */
+}
+
+#google_translate_element .goog-te-gadget-simple:hover {
+    background-color: #ffffff;
+}
+
+#google_translate_element .goog-te-gadget-icon {
+    display: none; /* Hide the default Google icon */
+}
+
+/* Additional styling for the dropdown (optional) */
+#google_translate_element .goog-te-gadget-simple .goog-te-combo {
+    padding: 2px; /* Reduced padding for the dropdown */
+    height: auto; /* Let height be determined by content */
+}
+
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
