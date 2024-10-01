@@ -20,7 +20,7 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #ffffff; /* Default color used for the majority of the text content across the entire website */
+  --default-color: #7e7e7e; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #124265; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #05de10; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -46,7 +46,7 @@
 
 .dark-background {
   --background-color: #060606;
-  --default-color: #ffffff;
+  --default-color: #737373;
   --heading-color: #ffffff;
   --surface-color: #252525;
   --contrast-color: #ffffff;
@@ -54,7 +54,7 @@
 
 .accent-background {
   --background-color: #001f85;
-  --default-color: #ffffff;
+  --default-color: #939393;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
   --surface-color: #469fdf;
@@ -64,7 +64,7 @@
 /* Dark Mode Specific Styles */
 .dark-mode {
   --background-color: #0d2048;
-  --default-color: #ffffff;
+  --default-color: #989898;
   --heading-color: #ffffff;
   --accent-color: #06de06;
   --surface-color: #0D2048;
